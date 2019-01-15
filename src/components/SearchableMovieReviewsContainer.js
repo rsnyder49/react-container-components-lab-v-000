@@ -34,4 +34,4 @@ class SearchableMovieReviewsContainer extends Component {
   }
 }
 
- export default SearchableMovieReviewsContainer 
+export default SearchableMovieReviewsContainer 
