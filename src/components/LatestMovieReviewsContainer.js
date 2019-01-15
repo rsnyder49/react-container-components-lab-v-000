@@ -11,7 +11,7 @@ class LatestMovieReviewsContainer extends Component {
     reviews: []
   }
   
-  componentDidMount(){
+  componentDidMount() {
     fetch(`${URL}`)
     .then( resp => resp.json())
     .then( ({results}) => this.setState({reviews: results}))
