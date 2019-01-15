@@ -9,7 +9,7 @@ const MovieReviews = ({reviews}) => {
       {reviews.map( (review, idx) => <div className="review" key={idx}><li>{review.display_title}</li></div>)}
      </ul>
      </div>
-    )
+   )
 }
 
 export default MovieReviews 
