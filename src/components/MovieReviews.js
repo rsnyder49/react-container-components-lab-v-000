@@ -1,7 +1,7 @@
 import React from 'react'
 
 
- const MovieReviews = ({reviews}) => {
+const MovieReviews = ({reviews}) => {
    
    return (
      <div className="review-list">
