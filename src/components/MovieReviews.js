@@ -5,9 +5,9 @@ const MovieReviews = ({reviews}) => {
    
    return (
      <div className="review-list">
-     <ul>
-      {reviews.map( (review, idx) => <div className="review" key={idx}><li>{review.display_title}</li></div>)}
-     </ul>
+       <ul>
+        {reviews.map((review, idx) => <div className="review" key={idx}><li>{review.display_title}</li></div>)}
+       </ul>
      </div>
    )
 }
